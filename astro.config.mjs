@@ -35,7 +35,7 @@ export default defineConfig({
       },
     }),
     starlight({
-      title: "ScrewFast Docs",
+      title: "Docs",
       defaultLocale: "root",
       locales: {
         root: {
@@ -80,7 +80,7 @@ export default defineConfig({
         },
       ],
       social: {
-        github: "https://github.com/mearashadowfax/ScrewFast",
+        github: "https://github.com/manuelcalso",
       },
       disable404Route: true,
       customCss: ["./src/styles/starlight.css"],
@@ -94,14 +94,14 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             property: "og:image",
-            content: "https://screwfast.uk" + "/social.webp",
+            content: "#" + "/social.webp",
           },
         },
         {
           tag: "meta",
           attrs: {
             property: "twitter:image",
-            content: "https://screwfast.uk" + "/social.webp",
+            content: "#" + "/social.webp",
           },
         },
       ],

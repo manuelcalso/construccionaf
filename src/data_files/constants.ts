@@ -1,13 +1,14 @@
-import ogImageSrc from "@images/social.png";
+import ogImageSrc from "@images/construccionafpage.png";
 
 export const SITE = {
-  title: "ScrewFast",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
-  url: "https://screwfast.uk",
-  author: "Emil Gulamov",
+  title: "Arquitectura Fotovoltaica | Construccion Multiservicios",
+  tagline: "Construcción y Automatización Residencial",
+  description: "Empresa constructora 100% mexicana, fundada en 1988, especializada en construcción y automatización residencial. Ofrecemos proyectos innovadores que ahorran energía y capital, cumpliendo con todos los estándares de calidad y vanguardia en diseño arquitectónico multiservicios.",
+  description_short: "Empresa mexicana de construcción y automatización residencial, ofreciendo proyectos innovadores y eficientes.",
+  url: "#",  // Actualiza esto con el URL real de tu empresa
+  author: "Juan Calleros",
 };
+
 
 export const SEO = {
   title: SITE.title,
@@ -30,10 +31,11 @@ export const SEO = {
 };
 
 export const OG = {
-  locale: "en_US",
+  locale: "es_ES",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
-  image: ogImageSrc,
+  title: `${SITE.title} | Construcción Multiservicios Residencial`,
+  description: "Empresa constructora 100% mexicana, fundada en 1988. Especializada en construcción y automatización residencial, ofrece proyectos innovadores que ahorran energía y capital, cumpliendo con los más altos estándares de calidad y vanguardia en diseño arquitectónico multiservicios. Empieza tu proxima construccion!",
+  image: ogImageSrc,  
 };
+
