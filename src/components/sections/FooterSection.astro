@@ -43,7 +43,7 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Creado
                   >
                     {link.name}
                   </a>
-                  {section.section === "Empresa" && index === 2 ? (
+                  {section.section === "Empresa" && index === 1 ? (
                     <span class="ms-1 inline rounded-lg bg-orange-500 px-2 py-1 text-xs font-bold text-neutral-50">
                        Reclutando!
                     </span>
@@ -98,13 +98,10 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Creado
           ><Icon name="githubFooter" />
         </FooterSocialLink>
 
-        <FooterSocialLink url={strings.socialLinks.google}
-          ><Icon name="googleFooter" />
+         <FooterSocialLink url={strings.socialLinks.linkedIn}
+          ><Icon name="linkedIn" />
         </FooterSocialLink>
 
-        <FooterSocialLink url={strings.socialLinks.slack}
-          ><Icon name="slackFooter" />
-        </FooterSocialLink>
       </div>
     </div>
 

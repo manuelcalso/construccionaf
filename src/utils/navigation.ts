@@ -20,18 +20,17 @@ const footerLinks = [
     section: "Empresa",
     links: [
       { name: "Nosotros", url: "#" },
-      { name: "Contrataciones", url: "#" },
+      { name: "Empleos", url: "/contact" },
       { name: "Clientes", url: "#" },
     ],
   },
 ];
 // An object of links for social icons
 const socialLinks = {
-  facebook: "https://www.facebook.com/",
+  facebook: "https://www.facebook.com/arquitecturafotovoltaica",
   x: "https://twitter.com/",
-  github: "https://github.com/mearashadowfax/ScrewFast",
-  google: "https://www.google.com/",
-  slack: "https://slack.com/",
+  github: "https://https://github.com/manuelcalso",
+  linkedIn: "https://linkedin.com/",
 };
 
 export default {
