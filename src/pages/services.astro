@@ -8,8 +8,8 @@ import FeaturesStats from "@components/sections/features/FeaturesStats.astro";
 
 // Import necessary images
 import blueprints from "@images/instalacion01.avif";
-import personWorking from "@images/person-working.avif";
-import beforeAfter from "@images/before-after.avif";
+import personWorking from "@images/boiler.avif";
+import beforeAfter from "@images/pisoradiante.avif";
 import constructionWorkers from "@images/construction-workers.avif";
 import aerialView from "@images/aerial-view.avif";
 import usingTools from "@images/using-tools.avif";
@@ -47,20 +47,20 @@ const articles: Article[] = [
   },
   {
     isRightSection: false,
-    title: "Transforming Designs into Reality",
+    title: "Calefacción Hidronica ",
     subTitle:
-      "Our skilled craftsmen bring precision and excellence to every construction project. From minor installations to substantial structural work, ScrewFast offers reliable construction services to turn your plans into tangible outcomes. We ensure the highest standards of safety and workmanship, utilizing top-quality tools and materials from our extensive inventory.",
+      "Instalamos calefacción hidronica de piso radiante y radiadores de muro que es el sistema de calefacción para el hogar más eficiente y sustentable en el mercado, ya que no genera corrientes de aire ni ruidos siendo sano y confortable.",
     img: beforeAfter,
     imgAlt: "Construction site before and after",
-    btnExists: true,
+    btnExists: false,
     btnTitle: "Learn More",
     btnURL: "#",
   },
   {
     isRightSection: true,
-    title: "Navigating Projects with Professional Oversight",
+    title: "Trabajos de Herreria",
     subTitle:
-      "Effective project management is at the heart of any successful build. ScrewFast provides thorough planning and robust management services that keep your project on time and within budget. Let us handle the complexities of workflow coordination, resource allocation, and stakeholder communication while you focus on your vision.",
+      "Nuestra área de herrería se dedica a la creación y fabricación de soluciones metálicas duraderas y estéticamente agradables. Ofrecemos una variedad de servicios de herrería",
     single: false,
     imgOne: constructionWorkers,
     imgOneAlt: "Construction workers orchestrating a project",
@@ -69,9 +69,9 @@ const articles: Article[] = [
   },
   {
     isRightSection: false,
-    title: "Ensuring Long-lasting Performance",
+    title: "Trabajos de Carpinteria",
     subTitle:
-      "Our commitment to your project doesn't end at completion. ScrewFast offers ongoing maintenance and support services to ensure your construction's longevity and performance. From regular check-ups to emergency assistance, our responsive team is there to provide seamless support.",
+      "Nuestra área de carpintería se especializa en transformar madera de alta calidad en obras maestras funcionales y estéticas. Ofrecemos una amplia gama de servicios de carpintería, desde diseno y fabricacion a la medida, restauracion y reparacion, proyectos comerciales y residenciales.",
     img: usingTools,
     imgAlt:
       "Man in orange and black vest wearing white helmet holding yellow and black power tool",
@@ -86,7 +86,7 @@ const articles: Article[] = [
     imgOneAlt: "In progress building structure",
     imgTwo: underConstruction,
     imgTwoAlt: "Brown and gray building under construction",
-    btnExists: true,
+    btnExists: false,
     btnTitle: "Read more",
     btnURL: "#",
   },
@@ -100,14 +100,14 @@ const pageTitle: string = `Services | ${SITE.title}`;
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/services",
-    "url": "https://screwfast.uk/services",
-    "name": "Expert Consultation Services | ScrewFast",
-    "description": "Uniting expertise with your vision, ScrewFast provides exceptional service and comprehensive solutions in the hardware and construction industry, from consultation to project completion.",
+    "@id": "#",
+    "url": "#",
+    "name": "Arquitectura Fotovoltaica S.A. de C.V.",
+    "description": "Uniendo experiencia con su visión, ofrecemos un servicio excepcional y soluciones integrales en la industria de la construcción, desde la consulta hasta la finalización del proyecto.",
     "isPartOf": {
         "@type": "WebSite",
-        "url": "https://screwfast.uk",
-        "name": "ScrewFast",
+        "url": "#",
+        "name": "Arquitectura Fotovoltaica S.A. de C.V.",
         "description": "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs."
     },
     "inLanguage": "en-US"
@@ -115,8 +115,8 @@ const pageTitle: string = `Services | ${SITE.title}`;
 >
   <!--MainSection is the introductory section of the page, it also contains a CTA button-->
   <MainSection
-    title="Uniting Expertise with Your Vision"
-    subTitle="At ScrewFast, we take pride in providing comprehensive solutions and exceptional service in the hardware and construction industry. Our experienced team is dedicated to supporting your project from inception to completion with a range of specialized services."
+    title="Uniendo Experiencia con Visión"
+    subTitle="Nos enorgullece ofrecer soluciones integrales y un servicio excepcional en la industria de la construcción. Nuestro equipo experimentado está dedicado a apoyar su proyecto desde el inicio hasta la finalización con una gama de servicios especializados."
     btnExists={true}
     btnTitle="Schedule a Consultation"
     btnURL="#"
@@ -158,24 +158,5 @@ const pageTitle: string = `Services | ${SITE.title}`;
     })
   }
   <!--FeaturesStats section showcases essential stats valuable to users-->
-  <FeaturesStats
-    title="By the Numbers"
-    subTitle="Our commitment to quality and reliability is evident in every project we undertake. At ScrewFast, we are dedicated to delivering industry-leading services that ensure your construction projects are built to last."
-    mainStatTitle="96%"
-    mainStatSubTitle="of our clients rate their experience with ScrewFast as exceptional"
-    stats={[
-      {
-        stat: "99.8%",
-        description: "project completion rate",
-      },
-      {
-        stat: "5,000+",
-        description: "successful installations",
-      },
-      {
-        stat: "85%",
-        description: "client growth year-over-year",
-      },
-    ]}
-  />
+  
 </MainLayout>
