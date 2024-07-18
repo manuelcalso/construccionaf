@@ -2,28 +2,28 @@
   "subTitle": "Preguntanos cualquier cosa sobre nuestros productos y servicios",
   "faqs": [
     {
-      "question": "What types of tools are included in the Starter Kit?",
-      "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
+      "question": "Existen reembolsos si mi producto no satisface mis necesidades",
+      "answer": "Sí, ofrecemos reembolsos si tu producto no satisface tus necesidades. Para iniciar el proceso de reembolso, por favor contáctanos dentro de los primeros 30 días desde la fecha de compra. Nuestro equipo de atención al cliente te guiará a través del proceso y se asegurará de que recibas tu reembolso de manera oportuna."
     },
     {
-      "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
-      "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
+      "question": "¿Cuánto tiempo tomará completar mi proyecto de construcción?",
+      "answer": "El tiempo de finalización de un proyecto varía según su tamaño y complejidad. Durante la fase de planificación, proporcionaremos un cronograma detallado que especifica los plazos de cada etapa del proyecto."
     },
     {
-      "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
-      "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
+      "question": "¿Qué tipos de proyectos de construcción manejan?",
+      "answer": "Ofrecemos una amplia gama de servicios que incluyen construcción de viviendas, remodelaciones, ampliaciones, proyectos comerciales y más. Nos adaptamos a las necesidades específicas de cada cliente."
     },
     {
-      "question": "What kind of customer support can I expect?",
-      "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
+      "question": "¿Ofrecen servicios de diseño y planificación arquitectónica?",
+      "answer": "Sí, contamos con un equipo de arquitectos y diseñadores experimentados que pueden ayudarte a planificar y diseñar tu proyecto desde cero, asegurando que se cumplan tus expectativas y requerimientos."
     },
     {
-      "question": "How current are the online resources and tutorials?",
-      "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
+      "question": "¿Puedo hacer cambios en el diseño una vez que el proyecto ha comenzado?",
+      "answer": "Entendemos que las necesidades pueden cambiar. Estamos dispuestos a trabajar contigo para hacer ajustes en el diseño, aunque esto puede afectar el costo y el tiempo de finalización del proyecto. Te mantendremos informado sobre cualquier impacto potencial."
     },
     {
-      "question": "Does ScrewFast offer services for large-scale construction projects?",
-      "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
+      "question": "¿Cómo manejan los permisos y las inspecciones necesarias para el proyecto?",
+      "answer": "Nos encargamos de todos los permisos y coordinamos las inspecciones necesarias para asegurar que tu proyecto cumpla con todas las regulaciones locales y estándares de construcción. Nuestro objetivo es que el proceso sea lo más fluido posible para ti."
     }
   ]
 }
