@@ -1,4 +1,4 @@
-// An array of links for navigation bar
+// An array of links for navigation barrr
 const navBarLinks = [
   { name: "Inicio", url: "/" },
 ];
