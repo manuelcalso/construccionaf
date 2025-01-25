@@ -80,7 +80,7 @@ export default defineConfig({
         },
       ],
       social: {
-        github: "https://github.com/manuelcalso",
+        github: "https://juancalleros.com/",
       },
       disable404Route: true,
       customCss: ["./src/styles/starlight.css"],
